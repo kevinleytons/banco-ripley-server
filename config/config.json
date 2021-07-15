@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "desafioTecnicoRipley",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "desafioTecnicoRipley",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "production": {
+    "username": "kleytons_ripley",
+    "password": "ripley.123",
+    "database": "kleytons_banco_ripley",
+    "host": "186.64.116.65",
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false
+    }
+  }
+}
