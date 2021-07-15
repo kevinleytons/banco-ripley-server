@@ -1,12 +1,18 @@
 {
   "development": {
-    "username": "banco-ripley",
-    "password": "postgres",
-    "database": "postgres",
-    "host": "banco-ripley.c4uqyrsnyh0k.us-east-2.rds.amazonaws.com",
+    "username": "ojdoppzonijhyp",
+    "password": "66530cf508ab83451c6727986a8be2f8f408e885932d2bc3b8c75c3983a36787",
+    "database": "d5fuud17ac79fk",
+    "host": "ec2-34-193-101-0.compute-1.amazonaws.com",
     "dialect": "postgres",
     "define": {
       "timestamps": false
+    },
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   },
   "test": {
@@ -20,13 +26,19 @@
     }
   },
   "production": {
-    "username": "banco-ripley",
-    "password": "postgres",
-    "database": "postgres",
-    "host": "banco-ripley.c4uqyrsnyh0k.us-east-2.rds.amazonaws.com",
+    "username": "ojdoppzonijhyp",
+    "password": "66530cf508ab83451c6727986a8be2f8f408e885932d2bc3b8c75c3983a36787",
+    "database": "d5fuud17ac79fk",
+    "host": "ec2-34-193-101-0.compute-1.amazonaws.com",
     "dialect": "postgres",
     "define": {
       "timestamps": false
+    },
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   }
 }
