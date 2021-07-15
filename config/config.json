@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "kleytons_banco_ripley",
-    "password": "kleytons_banco_ripley",
-    "database": "kleytons_banco_ripley",
-    "host": "186.64.116.65",
-    "dialect": "mysql",
+    "username": "banco-ripley",
+    "password": "postgres",
+    "database": "postgres",
+    "host": "banco-ripley.c4uqyrsnyh0k.us-east-2.rds.amazonaws.com",
+    "dialect": "postgres",
     "define": {
       "timestamps": false
     }
@@ -20,11 +20,11 @@
     }
   },
   "production": {
-    "username": "kleytons_banco_ripley",
-    "password": "kleytons_banco_ripley",
-    "database": "kleytons_banco_ripley",
-    "host": "186.64.116.65",
-    "dialect": "mysql",
+    "username": "banco-ripley",
+    "password": "postgres",
+    "database": "postgres",
+    "host": "banco-ripley.c4uqyrsnyh0k.us-east-2.rds.amazonaws.com",
+    "dialect": "postgres",
     "define": {
       "timestamps": false
     }
